@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #252422;
+    font-family: 'Fjalla One', sans-serif;
+}
+/*********************start-header******************************/
+.header{
+    background-color: #252422;
+    opacity: 0.8;
+}
+.sch{margin-left: auto;
+}
+.sch input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #EB5E28;
+    color: #EB5E28;
+}
+.sch input[type="text"]:focus {
+    outline: none !important;
+}
+.sch ::placeholder {
+    color: #EB5E28;
+}
+.brand-name{border-right: 1px solid #EB5E28;}
+.header-link{
+    color: #EB5E28 !important;
+}
+.FB:hover{
+    background-color: #EB5E28 !important;
+    color: #FEFAE0;
+}
+.MC{
+    background-color: #252422 !important;
+}
+.modal-body label,.modal-body p,.modal-header h3{
+    color:#EB5E28  ;
+}
+.M-BUT{
+    background-color: #EB5E28 ;
+    color: #FEFAE0;
+}
+
+/*********************end-header******************************/
+/*********************start-carousel******************************/
+.c-but:hover{
+    background-color: #EB5E28;
+    color: #FEFAE0 !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 80vh;
+}
+/*********************end-carousel******************************/
+/*********************start-welcome******************************/
+.welcome{
+    background-color: #403D39!important;
+}
+.welcome h2{
+    font-size: 45px;
+}
+/*********************end-welcome******************************/
+hr{
+    background-color: #EB5E28;
+    margin: 2rem 0;
+}
+.main-title{
+    background-color: #403D39;
+    color: #EB5E28;
+}
+/*********************start-Products******************************/
+.acco{
+    background-color: #252422;
+}
+.acco-body{
+    color: #EB5E28;
+}
+.card-header{
+    background-color: #403D39;
+}
+.p-link{
+    color: #EB5E28;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.acco:hover .p-link{
+    color: #FFFCF2;
+    font-size: 30px;
+}
+/*********************end-Products******************************/
+/*********************start-discount******************************/
+.discount-item{
+    background-color: #252422;
+}
+.dis-link{
+    color: #EB5E28;
+}
+.dis-link:hover{
+    color: #FFFCF2;
+}
+.dis-code{
+    color: #EB5E28;
+}
+/*********************end-discount******************************/
+/*********************start-more******************************/
+.fixed-img{
+    background-image: url(../imges/fixed1.jpg);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fixed-img-2{
+    background-image: url(../imges/fixed2.jpg);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.more-content{
+    background-color: #252422;
+}
+.more-item{
+   background-color: #403D39;
+   color: #FEFAE0;
+}
+.more-but{
+    background-color: #EB5E28;
+    color: #FEFAE0;
+}
+.more-but:hover{
+    background-color: #FEFAE0;
+    color: #EB5E28;
+}
+/*********************end-more******************************/
+/*********************start-partners******************************/
+.Partner-item{
+    background-color: #403D39;
+}
+.Partner-name{
+    color: #EB5E28;
+}
+/*********************end-partners******************************/
+/*********************start-footer******************************/
+.follow-item{
+    background-color:#252422 ;
+    color: #EB5E28;
+    width: 18rem;
+    border: none;
+}
+.follow-item a {
+    color: #EB5E28;
+}
+.follow-icon{
+    font-size: 40px;
+}
+footer h4,footer p{
+    color: #FEFAE0;
+}
+.footer-item a{
+    color: #EB5E28;
+}
+.footer-item i{
+    color: #EB5E28;
+}
+/*********************end-footer******************************/
